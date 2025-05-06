@@ -73,7 +73,7 @@ if submitted:
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
                 messages=[
-                    {"role": "system", "content": "คุณเป็นผู้ช่วยแนะแนวอาชีพ ช่วยให้นักเรียนค้นพบเส้นทางอาชีพที่เหมาะสมจากข้อมูลที่ให้มา"},
+                    {"role": "system", "content": "ทำนายอาชีพในอนาคตที่เหมาะกับฉัน และแนวทางการพัฒนาต่อในช่วง ม.ต้น - ม.ปลาย จากข้อมูลที่ให้มา"},
                     {"role": "user", "content": prompt}
                 ]
             )
